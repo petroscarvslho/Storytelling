@@ -1,0 +1,24 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+.env.local
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Temporarios
+*.tmp
+*.temp
+*.log

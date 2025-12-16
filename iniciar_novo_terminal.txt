@@ -1,0 +1,159 @@
+---
+# INSTRUCOES PARA CONTINUAR EM NOVO TERMINAL CLAUDE CODE
+
+## PASSO 1 - COPIAR ESTE PROMPT PARA O NOVO CHAT:
+
+Estou continuando o desenvolvimento do Storytelling do USG-Game.
+
+LOCALIZACAO: /Users/priscoleao/Documents/Storytelling
+GITHUB: https://github.com/petroscarvslho/Storytelling.git
+
+Por favor:
+1. Leia o arquivo CLAUDE.md para entender o projeto
+2. Leia o diario_progresso.md para ver o historico recente
+3. Leia os arquivos em prompts/ para ver os templates criados
+4. Execute git status e git log --oneline -5 para ver estado atual
+
+Apos ler, me diga o que foi feito recentemente e o que podemos continuar.
+
+---
+
+## PASSO 2 - ESTRUTURA DO PROJETO
+
+/Users/priscoleao/Documents/Storytelling/
+├── CLAUDE.md                     <- Instrucoes gerais do projeto
+├── diario_progresso.md           <- Historico de desenvolvimento
+├── iniciar_novo_terminal.txt     <- Este arquivo
+├── prompts/
+│   ├── templates.md              <- Templates base Leonardo.ai
+│   ├── ambientes.md              <- Prompts de cenarios
+│   ├── personagens.md            <- Prompts de personagens
+│   ├── cutscenes.md              <- Prompts de cenas narrativas
+│   └── equipamentos.md           <- Prompts de itens
+├── assets/
+│   ├── ambientes/                <- Imagens de cenarios
+│   ├── personagens/              <- Sprites de personagens
+│   ├── cutscenes/                <- Cenas de dialogo
+│   └── equipamentos/             <- Icones de itens
+├── roteiro/
+│   ├── historia_principal.md     <- Narrativa principal
+│   ├── dialogos/                 <- Dialogos por cena
+│   └── fluxo_jogo.md             <- Fluxo cenas + minigames
+└── referencias/
+    └── pesquisa_visual.md        <- Referencias visuais
+
+---
+
+## PASSO 3 - PROJETOS RELACIONADOS
+
+1. Usg-game: /Users/priscoleao/Usg-game
+   - Minigames de procedimentos (9 funcionais)
+   - GitHub: https://github.com/petroscarvslho/Usg-game-.git
+
+2. Gamefinal: /Users/priscoleao/Gamefinal
+   - Hospital RPG com Gemini AI
+   - GitHub: https://github.com/petroscarvslho/Gamefinal.git
+
+3. pixelmed-pro: /Users/priscoleao/pixelmed-pro
+   - Assets e design system
+
+---
+
+## PASSO 4 - APIS DISPONIVEIS
+
+1. Leonardo.ai (Principal para cenas)
+   - Modelo: Lucid Origin ou Leonardo Diffusion XL
+   - Usar prompts dos arquivos em prompts/
+
+2. PixelLab (MCP) - Ja integrado no Claude Code
+   - mcp__pixellab__create_character
+   - mcp__pixellab__animate_character
+   - mcp__pixellab__create_isometric_tile
+   - mcp__pixellab__create_topdown_tileset
+
+---
+
+## PASSO 5 - COMANDOS RAPIDOS
+
+| Comando             | O que faz                                                              |
+|---------------------|------------------------------------------------------------------------|
+| "passo a passo"     | Executa verificacao completa, correcoes, melhorias, commit e relatorio |
+| "atualize o diario" | Atualiza diario_progresso.md                                           |
+| "atualize o texto"  | Atualiza iniciar_novo_terminal.txt                                     |
+| "faca commit"       | git add + commit + push                                                |
+| "antes de fechar"   | Diario + texto + commit                                                |
+
+### O que "passo a passo" faz:
+1. Ler CLAUDE.md e diario_progresso.md
+2. Verificar estado atual do git
+3. Identificar o que precisa ser feito/melhorado
+4. Fazer correcoes e melhorias necessarias
+5. Atualizar diario_progresso.md
+6. Atualizar iniciar_novo_terminal.txt
+7. Fazer commit e push
+8. Gerar relatorio do que foi feito
+
+---
+
+## PASSO 6 - REGRA OBRIGATORIA AO FECHAR CHAT
+
+ANTES DE FECHAR QUALQUER SESSAO, SEMPRE:
+
+1. Atualizar diario_progresso.md com o que foi feito
+2. Atualizar iniciar_novo_terminal.txt com estado atual
+3. Fazer commit e push:
+   git add -A && git commit -m "descricao das mudancas" && git push origin main
+4. Confirmar que nao ha mudancas pendentes:
+   git status
+
+PEDIR AO CLAUDE: "Antes de fechar, atualize o diario e faca commit de tudo"
+
+---
+
+## PASSO 7 - ESTADO ATUAL (Atualizado: 2025-12-16)
+
+Concluido:
+- Estrutura inicial do repositorio
+- CLAUDE.md com instrucoes e comandos rapidos
+- Prompts para Leonardo.ai:
+  - templates.md (configuracoes base)
+  - ambientes.md (11 cenarios)
+  - personagens.md (15+ personagens)
+  - cutscenes.md (20+ cenas narrativas)
+  - equipamentos.md (30+ itens)
+- Roteiro basico:
+  - historia_principal.md (12 capitulos)
+  - fluxo_jogo.md (fluxo cenas + minigames)
+
+Proximos passos sugeridos:
+- Criar arvore de ramificacoes narrativas
+- Definir dialogos por cena
+- Gerar primeiros assets de teste no Leonardo.ai
+- Testar consistencia com Character Reference
+
+---
+
+## COMANDOS UTEIS
+
+# Navegar para o projeto
+cd /Users/priscoleao/Documents/Storytelling
+
+# Ver estado do git
+git status
+git log --oneline -10
+
+# Commit rapido
+git add -A && git commit -m "msg" && git push origin main
+
+---
+
+## LEMBRETE FINAL
+
+Ao pedir para o Claude:
+- "atualize o diario" = atualiza diario_progresso.md
+- "faca commit" = git add + commit + push
+- "antes de fechar" = faz os dois acima automaticamente
+- "passo a passo" = seguir todas as instrucoes deste arquivo
+
+---
+Pode copiar e usar no proximo chat!
