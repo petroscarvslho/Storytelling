@@ -99,6 +99,19 @@ RESULTADOS (ramificacoes baseadas em escolhas)
 | Capitulos | 12 |
 | Ramificacoes | 27+ |
 
+### Testes de Estilo (2025-12-16)
+- Gerados 5 estilos de exemplo (assets/samples/):
+  - style1_clean (base Limezu, sem dithering)
+  - style2_dither (retro com leve dithering)
+  - style3_late16 (mais detalhe, semi-realismo)
+  - style4_night (dramatico/noturno)
+  - style5_crt (retro/CRT)
+- Recomendações:
+  - Usar **Estilo 1** como padrão (limpo, coerente com Limezu)
+  - Usar Estilo 3 só para cutscenes importantes
+  - Estilo 2 para flashback/retro; Estilo 4/5 apenas como variação pontual
+  - Paleta curta (16-20 cores), sem gradientes suaves; guidance 6-7; seed fixo 424242
+
 ---
 
 ## PERSONAGENS PRINCIPAIS

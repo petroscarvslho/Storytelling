@@ -32,7 +32,8 @@ Storytelling/
 │   ├── templates.md              <- Configuracoes Leonardo.ai
 │   ├── retratos.md               <- Prompts de retratos (visual novel)
 │   ├── cutscenes.md              <- Prompts de cenas ilustradas
-│   └── expressoes.md             <- Guia de expressoes por personagem
+│   ├── expressoes.md             <- Guia de expressoes por personagem
+│   └── estilos_pixel.md          <- Estilos (clean/dither/late16) e exemplos
 ├── assets/
 │   ├── retratos/                 <- Retratos para dialogos
 │   │   ├── protagonista/         <- Dr. Residente (6 expressoes)

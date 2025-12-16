@@ -160,6 +160,7 @@ Dialogo: "Vou aplicar anestesia local antes do bloqueio."
 - **8 cenas** com escolhas definidas
 - **27 ramificacoes** mapeadas
 - **4 finais** possiveis
+- Observacao (2025-12-16): foco atual em definir estilo visual (samples gerados em assets/samples); mapa de ramificacoes permanece o mesmo.
 
 ---
 

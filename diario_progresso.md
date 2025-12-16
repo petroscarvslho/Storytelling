@@ -6,6 +6,25 @@
 - **resumo_contexto.md** - Resumo completo de tudo (projetos, decisoes, duvidas)
 - **ramificacao.md** - Esquema de como funcionam as ramificacoes
 
+### Teste de Geracao Leonardo (mobile/desktop)
+- Retratos 768x1024 (seed 424242, guidance 7):
+  - protagonista: neutro/feliz/preocupado
+  - Dra. Costa: neutro/feliz/preocupada
+- Cutscenes (mesmo seed):
+  - chegada (widescreen 768x512, teste anterior)
+  - briefing com mentora: mobile 768x1024 e desktop 1024x640
+Paleta: hospital pastel blues/teals, light grey tiles, soft beige; blocky shading, crisp pixels.
+
+### Estilos Gerados (samples)
+- style1_clean (base Limezu, sem dithering)
+- style2_dither (retro com dithering leve)
+- style3_late16 (mais detalhe)
+- style4_night (dramatico/noturno)
+- style5_crt (retro/CRT)
+
+### Novo arquivo
+- prompts/estilos_pixel.md - consolida estilos e prompts de cenas/expressoes
+
 ### Atualizado
 - CLAUDE.md - Novos passos no "passo a passo"
 - iniciar_novo_terminal.txt - Inclui novos arquivos

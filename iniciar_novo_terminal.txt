@@ -41,7 +41,8 @@ Apos ler, me diga o que foi feito recentemente e o que podemos continuar.
 │   ├── templates.md              <- Configuracoes Leonardo.ai
 │   ├── retratos.md               <- Prompts visual novel
 │   ├── expressoes.md             <- Guia de expressoes
-│   └── cutscenes.md              <- Prompts cenas ilustradas
+│   ├── cutscenes.md              <- Prompts cenas ilustradas
+│   └── estilos_pixel.md          <- Estilos (clean/dither/late16) e exemplos
 ├── assets/
 │   ├── retratos/                 <- Retratos para dialogos
 │   │   ├── protagonista/
