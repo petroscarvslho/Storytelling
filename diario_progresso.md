@@ -25,6 +25,11 @@ Paleta: hospital pastel blues/teals, light grey tiles, soft beige; blocky shadin
 ### Novo arquivo
 - prompts/estilos_pixel.md - consolida estilos e prompts de cenas/expressoes
 
+### Notas multi-plataforma (mobile/tablet/PC)
+- Retratos: 768x1024 (escalar com image-rendering: pixelated)
+- Cutscene mobile/tablet: 768x1024
+- Cutscene desktop/PC: 1024x640
+
 ### Atualizado
 - CLAUDE.md - Novos passos no "passo a passo"
 - iniciar_novo_terminal.txt - Inclui novos arquivos

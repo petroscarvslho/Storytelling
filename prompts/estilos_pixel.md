@@ -55,9 +55,9 @@ Uso: cutscenes-chave.
 - CRT/Scanline: adicionar `subtle crt scanlines, slight vignette` (somente se quiser filtro nostálgico).
 
 ## Resoluções recomendadas
-- Retratos: 768x1024 (escala inteira para mobile/desktop; usar `image-rendering: pixelated` no jogo).
-- Cutscene mobile: 768x1024.
-- Cutscene desktop: 1024x640.
+- Retratos: 768x1024 (escala inteira para mobile/tablet/desktop; usar `image-rendering: pixelated` no jogo).
+- Cutscene mobile/tablet (retrato): 768x1024.
+- Cutscene desktop (widescreen/PC): 1024x640.
 
 ## Paleta
 - hospital pastel blues and teals

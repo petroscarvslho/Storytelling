@@ -42,15 +42,15 @@ Apos ler, me diga o que foi feito recentemente e o que podemos continuar.
 │   ├── retratos.md               <- Prompts visual novel
 │   ├── expressoes.md             <- Guia de expressoes
 │   ├── cutscenes.md              <- Prompts cenas ilustradas
-│   └── estilos_pixel.md          <- Estilos (clean/dither/late16) e exemplos
+│   └── estilos_pixel.md          <- Estilos (clean/dither/late16) e exemplos (res mobile/tablet/PC)
 ├── assets/
-│   ├── retratos/                 <- Retratos para dialogos
+│   ├── retratos/                 <- Retratos para dialogos (usar em mobile/tablet/PC)
 │   │   ├── protagonista/
 │   │   ├── mentores/
 │   │   ├── equipe/
 │   │   ├── pacientes/
 │   │   └── familiares/
-│   └── cutscenes/                <- Cenas por capitulo
+│   └── cutscenes/                <- Cenas por capitulo (mobile/tablet: 768x1024; PC: 1024x640)
 │       ├── cap01/ ... cap06/
 ├── roteiro/
 │   ├── historia_principal.md     <- 12 capitulos

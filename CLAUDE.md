@@ -35,13 +35,13 @@ Storytelling/
 │   ├── expressoes.md             <- Guia de expressoes por personagem
 │   └── estilos_pixel.md          <- Estilos (clean/dither/late16) e exemplos
 ├── assets/
-│   ├── retratos/                 <- Retratos para dialogos
-│   │   ├── protagonista/         <- Dr. Residente (6 expressoes)
+│   ├── retratos/                 <- Retratos para dialogos (usar para mobile/tablet/PC)
+│   │   ├── protagonista/         <- Dr. Residente (expressoes)
 │   │   ├── mentores/             <- Dr. Silva, Dra. Costa, etc.
 │   │   ├── equipe/               <- Enfermeiros, tecnicos
 │   │   └── pacientes/            <- Diversos tipos
 │   └── cutscenes/                <- Cenas ilustradas completas
-│       ├── cap01/                <- Por capitulo
+│       ├── cap01/                <- Por capitulo (mobile/tablet: 768x1024; PC: 1024x640)
 │       ├── cap02/
 │       └── ...
 ├── roteiro/
