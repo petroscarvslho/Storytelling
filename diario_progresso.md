@@ -1,5 +1,33 @@
 # Diario de Progresso - Storytelling USG-Game
 
+## 2025-12-16 - Sessao 3: Novos Arquivos de Contexto
+
+### Criado
+- **resumo_contexto.md** - Resumo completo de tudo (projetos, decisoes, duvidas)
+- **ramificacao.md** - Esquema de como funcionam as ramificacoes
+
+### Atualizado
+- CLAUDE.md - Novos passos no "passo a passo"
+- iniciar_novo_terminal.txt - Inclui novos arquivos
+
+### Novos passos do "passo a passo":
+1. Ler todos os arquivos principais
+2. Verificar git
+3. Identificar melhorias
+4. Fazer correcoes
+5. **Atualizar resumo_contexto.md**
+6. **Atualizar ramificacao.md**
+7. Atualizar diario
+8. Atualizar texto terminal
+9. Commit e push
+10. Gerar relatorio
+
+### Discussao
+Usuario ainda em duvida sobre melhor abordagem para criar assets.
+Criados arquivos de contexto para ajudar a manter clareza entre sessoes.
+
+---
+
 ## 2025-12-16 - Sessao 2: Reorganizacao e Foco
 
 ### Decisao de Design

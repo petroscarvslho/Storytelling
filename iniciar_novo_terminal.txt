@@ -10,9 +10,10 @@ GITHUB: https://github.com/petroscarvslho/Storytelling.git
 
 Por favor:
 1. Leia o arquivo CLAUDE.md para entender o projeto
-2. Leia o diario_progresso.md para ver o historico recente
-3. Leia os arquivos em prompts/ para ver os templates criados
-4. Execute git status e git log --oneline -5 para ver estado atual
+2. Leia o resumo_contexto.md para ter o contexto completo
+3. Leia o ramificacao.md para entender o esquema de ramificacoes
+4. Leia o diario_progresso.md para ver o historico recente
+5. Execute git status e git log --oneline -5 para ver estado atual
 
 Apos ler, me diga o que foi feito recentemente e o que podemos continuar.
 
@@ -34,6 +35,8 @@ Apos ler, me diga o que foi feito recentemente e o que podemos continuar.
 ├── CLAUDE.md                     <- Instrucoes gerais
 ├── diario_progresso.md           <- Historico
 ├── iniciar_novo_terminal.txt     <- Este arquivo
+├── resumo_contexto.md            <- Contexto completo (atualizado no passo a passo)
+├── ramificacao.md                <- Esquema ramificacoes (atualizado no passo a passo)
 ├── prompts/
 │   ├── templates.md              <- Configuracoes Leonardo.ai
 │   ├── retratos.md               <- Prompts visual novel

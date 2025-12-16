@@ -26,6 +26,8 @@ Storytelling/
 ├── CLAUDE.md                     <- Este arquivo
 ├── diario_progresso.md           <- Historico de desenvolvimento
 ├── iniciar_novo_terminal.txt     <- Instrucoes para novo terminal
+├── resumo_contexto.md            <- Resumo de tudo (atualizado no passo a passo)
+├── ramificacao.md                <- Esquema de ramificacoes (atualizado no passo a passo)
 ├── prompts/
 │   ├── templates.md              <- Configuracoes Leonardo.ai
 │   ├── retratos.md               <- Prompts de retratos (visual novel)
@@ -99,14 +101,16 @@ Storytelling/
 | "antes de fechar"   | Diario + texto + commit                                                |
 
 ### O que "passo a passo" faz:
-1. Ler CLAUDE.md e diario_progresso.md
+1. Ler CLAUDE.md, diario_progresso.md, resumo_contexto.md, ramificacao.md
 2. Verificar estado atual do git
 3. Identificar o que precisa ser feito/melhorado
 4. Fazer correcoes e melhorias necessarias
-5. Atualizar diario_progresso.md
-6. Atualizar iniciar_novo_terminal.txt
-7. Fazer commit e push
-8. Gerar relatorio do que foi feito
+5. **Atualizar resumo_contexto.md** com tudo que foi conversado/aprendido
+6. **Atualizar ramificacao.md** com evolucao do esquema de ramificacoes
+7. Atualizar diario_progresso.md
+8. Atualizar iniciar_novo_terminal.txt
+9. Fazer commit e push
+10. Gerar relatorio do que foi feito
 
 ## REGRA OBRIGATORIA AO FECHAR CHAT
 
