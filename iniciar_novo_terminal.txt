@@ -18,58 +18,55 @@ Apos ler, me diga o que foi feito recentemente e o que podemos continuar.
 
 ---
 
-## PASSO 2 - ESTRUTURA DO PROJETO
+## PASSO 2 - FOCO DESTE REPOSITORIO
 
-/Users/priscoleao/Documents/Storytelling/
-├── CLAUDE.md                     <- Instrucoes gerais do projeto
-├── diario_progresso.md           <- Historico de desenvolvimento
-├── iniciar_novo_terminal.txt     <- Este arquivo
-├── prompts/
-│   ├── templates.md              <- Templates base Leonardo.ai
-│   ├── ambientes.md              <- Prompts de cenarios
-│   ├── personagens.md            <- Prompts de personagens
-│   ├── cutscenes.md              <- Prompts de cenas narrativas
-│   └── equipamentos.md           <- Prompts de itens
-├── assets/
-│   ├── ambientes/                <- Imagens de cenarios
-│   ├── personagens/              <- Sprites de personagens
-│   ├── cutscenes/                <- Cenas de dialogo
-│   └── equipamentos/             <- Icones de itens
-├── roteiro/
-│   ├── historia_principal.md     <- Narrativa principal
-│   ├── dialogos/                 <- Dialogos por cena
-│   └── fluxo_jogo.md             <- Fluxo cenas + minigames
-└── referencias/
-    └── pesquisa_visual.md        <- Referencias visuais
+**Este repositorio cria:**
+- Retratos Visual Novel (personagens em busto com expressoes)
+- Cutscenes Ilustradas (cenas completas para momentos importantes)
+
+**NAO faz sprites top-down** (isso esta no Usg-game/Gamefinal)
 
 ---
 
-## PASSO 3 - PROJETOS RELACIONADOS
+## PASSO 3 - ESTRUTURA DO PROJETO
+
+/Users/priscoleao/Documents/Storytelling/
+├── CLAUDE.md                     <- Instrucoes gerais
+├── diario_progresso.md           <- Historico
+├── iniciar_novo_terminal.txt     <- Este arquivo
+├── prompts/
+│   ├── templates.md              <- Configuracoes Leonardo.ai
+│   ├── retratos.md               <- Prompts visual novel
+│   ├── expressoes.md             <- Guia de expressoes
+│   └── cutscenes.md              <- Prompts cenas ilustradas
+├── assets/
+│   ├── retratos/                 <- Retratos para dialogos
+│   │   ├── protagonista/
+│   │   ├── mentores/
+│   │   ├── equipe/
+│   │   ├── pacientes/
+│   │   └── familiares/
+│   └── cutscenes/                <- Cenas por capitulo
+│       ├── cap01/ ... cap06/
+├── roteiro/
+│   ├── historia_principal.md     <- 12 capitulos
+│   ├── fluxo_jogo.md             <- Fluxo cenas + minigames
+│   ├── arvore_ramificacoes.md    <- Escolhas e consequencias
+│   └── dialogos/
+└── referencias/
+
+---
+
+## PASSO 4 - PROJETOS RELACIONADOS
 
 1. Usg-game: /Users/priscoleao/Usg-game
    - Minigames de procedimentos (9 funcionais)
+   - Sprites top-down
    - GitHub: https://github.com/petroscarvslho/Usg-game-.git
 
 2. Gamefinal: /Users/priscoleao/Gamefinal
    - Hospital RPG com Gemini AI
    - GitHub: https://github.com/petroscarvslho/Gamefinal.git
-
-3. pixelmed-pro: /Users/priscoleao/pixelmed-pro
-   - Assets e design system
-
----
-
-## PASSO 4 - APIS DISPONIVEIS
-
-1. Leonardo.ai (Principal para cenas)
-   - Modelo: Lucid Origin ou Leonardo Diffusion XL
-   - Usar prompts dos arquivos em prompts/
-
-2. PixelLab (MCP) - Ja integrado no Claude Code
-   - mcp__pixellab__create_character
-   - mcp__pixellab__animate_character
-   - mcp__pixellab__create_isometric_tile
-   - mcp__pixellab__create_topdown_tileset
 
 ---
 
@@ -83,16 +80,6 @@ Apos ler, me diga o que foi feito recentemente e o que podemos continuar.
 | "faca commit"       | git add + commit + push                                                |
 | "antes de fechar"   | Diario + texto + commit                                                |
 
-### O que "passo a passo" faz:
-1. Ler CLAUDE.md e diario_progresso.md
-2. Verificar estado atual do git
-3. Identificar o que precisa ser feito/melhorado
-4. Fazer correcoes e melhorias necessarias
-5. Atualizar diario_progresso.md
-6. Atualizar iniciar_novo_terminal.txt
-7. Fazer commit e push
-8. Gerar relatorio do que foi feito
-
 ---
 
 ## PASSO 6 - REGRA OBRIGATORIA AO FECHAR CHAT
@@ -102,34 +89,40 @@ ANTES DE FECHAR QUALQUER SESSAO, SEMPRE:
 1. Atualizar diario_progresso.md com o que foi feito
 2. Atualizar iniciar_novo_terminal.txt com estado atual
 3. Fazer commit e push:
-   git add -A && git commit -m "descricao das mudancas" && git push origin main
-4. Confirmar que nao ha mudancas pendentes:
-   git status
-
-PEDIR AO CLAUDE: "Antes de fechar, atualize o diario e faca commit de tudo"
+   git add -A && git commit -m "descricao" && git push origin main
+4. Confirmar que nao ha mudancas pendentes
 
 ---
 
 ## PASSO 7 - ESTADO ATUAL (Atualizado: 2025-12-16)
 
 Concluido:
-- Estrutura inicial do repositorio
-- CLAUDE.md com instrucoes e comandos rapidos
-- Prompts para Leonardo.ai:
-  - templates.md (configuracoes base)
-  - ambientes.md (11 cenarios)
-  - personagens.md (15+ personagens)
-  - cutscenes.md (20+ cenas narrativas)
-  - equipamentos.md (30+ itens)
-- Roteiro basico:
+- Estrutura do repositorio reorganizada
+- CLAUDE.md com foco em retratos + cutscenes
+- Prompts organizados:
+  - retratos.md (15+ personagens)
+  - expressoes.md (72 imagens planejadas)
+  - cutscenes.md (50+ cenas)
+- Roteiro completo:
   - historia_principal.md (12 capitulos)
-  - fluxo_jogo.md (fluxo cenas + minigames)
+  - fluxo_jogo.md
+  - arvore_ramificacoes.md (27+ ramificacoes)
 
-Proximos passos sugeridos:
-- Criar arvore de ramificacoes narrativas
-- Definir dialogos por cena
-- Gerar primeiros assets de teste no Leonardo.ai
-- Testar consistencia com Character Reference
+Proximos passos:
+- [ ] Gerar retratos do protagonista no Leonardo.ai
+- [ ] Gerar retratos da Dra. Costa
+- [ ] Testar consistencia visual
+- [ ] Criar cutscenes do Capitulo 1
+
+---
+
+## PASSO 8 - QUANTIDADES PLANEJADAS
+
+| Tipo | Quantidade |
+|------|------------|
+| Personagens com retratos | 18 |
+| Total de expressoes | 72 imagens |
+| Cutscenes ilustradas | ~50 cenas |
 
 ---
 
@@ -144,16 +137,6 @@ git log --oneline -10
 
 # Commit rapido
 git add -A && git commit -m "msg" && git push origin main
-
----
-
-## LEMBRETE FINAL
-
-Ao pedir para o Claude:
-- "atualize o diario" = atualiza diario_progresso.md
-- "faca commit" = git add + commit + push
-- "antes de fechar" = faz os dois acima automaticamente
-- "passo a passo" = seguir todas as instrucoes deste arquivo
 
 ---
 Pode copiar e usar no proximo chat!

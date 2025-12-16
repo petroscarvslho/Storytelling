@@ -9,30 +9,45 @@
   - pixelmed-pro: /Users/priscoleao/pixelmed-pro
 
 ## OBJETIVO DO PROJETO
-Criar cenas em pixel art para storytelling do jogo USG-Game. O jogo mistura RPG com educacao medica (procedimentos anestesicos e ultrassom).
+Criar assets visuais para storytelling do jogo USG-Game:
+- **Retratos Visual Novel** - Personagens em busto com expressoes para dialogos
+- **Cutscenes Ilustradas** - Cenas completas para momentos importantes
+
+**NOTA**: Sprites top-down estao sendo feitos no Usg-game/Gamefinal.
+
+## ESTILO DO JOGO
+- Exploracao em top-down (Usg-game)
+- Dialogos em visual novel (este repo)
+- Cutscenes em momentos importantes (este repo)
 
 ## ESTRUTURA DO PROJETO
 ```
 Storytelling/
-├── CLAUDE.md                 <- Este arquivo
-├── diario_progresso.md       <- Historico de desenvolvimento
+├── CLAUDE.md                     <- Este arquivo
+├── diario_progresso.md           <- Historico de desenvolvimento
+├── iniciar_novo_terminal.txt     <- Instrucoes para novo terminal
 ├── prompts/
-│   ├── templates.md          <- Templates base para Leonardo.ai
-│   ├── ambientes.md          <- Prompts de cenarios
-│   ├── personagens.md        <- Prompts de personagens
-│   ├── cutscenes.md          <- Prompts de cenas narrativas
-│   └── equipamentos.md       <- Prompts de itens/equipamentos
+│   ├── templates.md              <- Configuracoes Leonardo.ai
+│   ├── retratos.md               <- Prompts de retratos (visual novel)
+│   ├── cutscenes.md              <- Prompts de cenas ilustradas
+│   └── expressoes.md             <- Guia de expressoes por personagem
 ├── assets/
-│   ├── ambientes/            <- Imagens geradas de cenarios
-│   ├── personagens/          <- Sprites de personagens
-│   ├── cutscenes/            <- Cenas de dialogo/narrativa
-│   └── equipamentos/         <- Icones de itens
+│   ├── retratos/                 <- Retratos para dialogos
+│   │   ├── protagonista/         <- Dr. Residente (6 expressoes)
+│   │   ├── mentores/             <- Dr. Silva, Dra. Costa, etc.
+│   │   ├── equipe/               <- Enfermeiros, tecnicos
+│   │   └── pacientes/            <- Diversos tipos
+│   └── cutscenes/                <- Cenas ilustradas completas
+│       ├── cap01/                <- Por capitulo
+│       ├── cap02/
+│       └── ...
 ├── roteiro/
-│   ├── historia_principal.md <- Narrativa principal
-│   ├── dialogos/             <- Dialogos por cena
-│   └── fluxo_jogo.md         <- Fluxo entre cenas e minigames
+│   ├── historia_principal.md     <- Narrativa (12 capitulos)
+│   ├── fluxo_jogo.md             <- Fluxo cenas + minigames
+│   ├── arvore_ramificacoes.md    <- Escolhas e consequencias
+│   └── dialogos/                 <- Textos por cena
 └── referencias/
-    └── pesquisa_visual.md    <- Referencias visuais coletadas
+    └── pesquisa_visual.md        <- Referencias coletadas
 ```
 
 ## APIS DISPONIVEIS

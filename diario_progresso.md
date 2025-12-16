@@ -1,42 +1,59 @@
 # Diario de Progresso - Storytelling USG-Game
 
-## 2025-12-16 - Criacao do Repositorio
+## 2025-12-16 - Sessao 2: Reorganizacao e Foco
+
+### Decisao de Design
+Definido que este repositorio foca em:
+- **Retratos Visual Novel** - Personagens em busto com expressoes para dialogos
+- **Cutscenes Ilustradas** - Cenas completas para momentos importantes
+
+Sprites top-down continuam sendo feitos no Usg-game/Gamefinal.
+
+### Reorganizado
+- CLAUDE.md atualizado com novo objetivo e estrutura
+- Estrutura de pastas reorganizada:
+  - assets/retratos/ (protagonista, mentores, equipe, pacientes, familiares)
+  - assets/cutscenes/ (cap01-cap06)
+- Prompts reorganizados:
+  - retratos.md - Prompts para visual novel (15+ personagens)
+  - expressoes.md - Guia de expressoes (72 imagens planejadas)
+  - cutscenes.md - Mantido para cenas ilustradas
+
+### Quantidades Planejadas
+- 18 personagens com expressoes
+- 72 imagens de retratos (3-6 expressoes por personagem)
+- ~50 cutscenes ilustradas
+
+### Proximos passos
+- [ ] Gerar retratos do protagonista (6 expressoes)
+- [ ] Gerar retratos da Dra. Costa (6 expressoes)
+- [ ] Testar consistencia no Leonardo.ai
+- [ ] Criar cutscenes do Capitulo 1
+
+---
+
+## 2025-12-16 - Sessao 1: Criacao do Repositorio
 
 ### Criado
 - Estrutura inicial do repositorio Storytelling
 - CLAUDE.md com instrucoes do projeto e comandos rapidos
 - iniciar_novo_terminal.txt para continuidade
-- Estrutura de pastas:
-  - prompts/ (templates, ambientes, personagens, cutscenes, equipamentos)
-  - assets/ (ambientes, personagens, cutscenes, equipamentos)
-  - roteiro/ (historia, fluxo, ramificacoes, dialogos)
-  - referencias/
-
-### Prompts para Leonardo.ai
-- templates.md - Configuracoes base (modelo, guidance, negative prompts)
-- ambientes.md - 11 cenarios de hospital
-- personagens.md - 15+ personagens (protagonista, equipe, pacientes)
-- cutscenes.md - 20+ cenas narrativas (abertura, dialogos, procedimentos, resultados)
-- equipamentos.md - 30+ itens (monitores, carrinhos, instrumentos, medicamentos)
+- Prompts para Leonardo.ai:
+  - templates.md - Configuracoes base
+  - ambientes.md - 11 cenarios de hospital
+  - personagens.md - 15+ personagens
+  - cutscenes.md - 20+ cenas narrativas
+  - equipamentos.md - 30+ itens
 
 ### Roteiro
-- historia_principal.md - 12 capitulos (Ato 1: Iniciacao, Ato 2: Desenvolvimento, Ato 3: Maestria)
-- fluxo_jogo.md - Estrutura de cada capitulo, fluxo cenas + minigames
-- arvore_ramificacoes.md - Sistema de escolhas e consequencias, 27+ ramificacoes
+- historia_principal.md - 12 capitulos (3 atos)
+- fluxo_jogo.md - Fluxo cenas + minigames
+- arvore_ramificacoes.md - 27+ ramificacoes de escolhas
 
 ### Contexto
-Este repositorio faz parte do projeto USG-Game:
+Parte do projeto USG-Game:
 - Usg-game: Minigames de procedimentos (9 funcionais)
 - Gamefinal: Hospital RPG com Gemini AI
 - pixelmed-pro: Assets e design system
-
-O objetivo e criar as cenas de storytelling em pixel art para conectar os minigames.
-
-### Proximos passos
-- [ ] Criar repositorio no GitHub
-- [ ] Expandir dialogos por cena
-- [ ] Gerar primeiros assets de teste no Leonardo.ai
-- [ ] Testar consistencia visual com Character Reference
-- [ ] Adicionar mais ramificacoes conforme necessario
 
 ---
